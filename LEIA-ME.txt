@@ -1,0 +1,10 @@
+MB Term - terminal Alpine (proot) para Android
+
+1) Extraia este projeto em /sdcard/MBTerm
+2) No terminal do MT Manager:   bash /sdcard/MBTerm/copiar-binarios.sh
+   (copia proot, loader e o rootfs do Alpine para dentro do projeto)
+3) Abra a pasta MBTerm no AndroidIDE (precisa de internet na 1a vez para o Gradle)
+4) Build > Build APK, instale e abra.
+
+Se o Gradle nao achar a biblioteca do Termux, troque a versao "v0.118.0" por "0.118.0"
+em app/build.gradle.kts.
