@@ -148,7 +148,7 @@ class MainActivity : Activity() {
         override fun onBell(s: TerminalSession) {}
         override fun onColorsChanged(s: TerminalSession) {}
         override fun onTerminalCursorStateChange(state: Boolean) {}
-        override fun setTerminalShellPid(s: TerminalSession, pid: Int) {}
+        override fun setTerminalShellPid(pid: Int) {}
         override fun getTerminalCursorStyle(): Int? = null
         override fun logError(tag: String?, message: String?) {}
         override fun logWarn(tag: String?, message: String?) {}
